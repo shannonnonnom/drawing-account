@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		7CFF8A0B2E7D44BA004AD4E7 /* drawing account.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "drawing account.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFF8A0B2E7D44BA004AD4E7 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		7CFF8A0C2E7D44BA004AD4E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7CFF8A0B2E7D44BA004AD4E7 /* drawing account.app */,
+				7CFF8A0B2E7D44BA004AD4E7 /* Instagram.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7CFF8A0A2E7D44BA004AD4E7 /* drawing account */ = {
+		7CFF8A0A2E7D44BA004AD4E7 /* Instagram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CFF8A162E7D44BB004AD4E7 /* Build configuration list for PBXNativeTarget "drawing account" */;
+			buildConfigurationList = 7CFF8A162E7D44BB004AD4E7 /* Build configuration list for PBXNativeTarget "Instagram" */;
 			buildPhases = (
 				7CFF8A072E7D44BA004AD4E7 /* Sources */,
 				7CFF8A082E7D44BA004AD4E7 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				7CFF8A0D2E7D44BA004AD4E7 /* drawing account */,
 			);
-			name = "drawing account";
+			name = Instagram;
 			packageProductDependencies = (
 			);
 			productName = "drawing account";
-			productReference = 7CFF8A0B2E7D44BA004AD4E7 /* drawing account.app */;
+			productReference = 7CFF8A0B2E7D44BA004AD4E7 /* Instagram.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7CFF8A0A2E7D44BA004AD4E7 /* drawing account */,
+				7CFF8A0A2E7D44BA004AD4E7 /* Instagram */,
 			);
 		};
 /* End PBXProject section */
@@ -318,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CFF8A162E7D44BB004AD4E7 /* Build configuration list for PBXNativeTarget "drawing account" */ = {
+		7CFF8A162E7D44BB004AD4E7 /* Build configuration list for PBXNativeTarget "Instagram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CFF8A172E7D44BB004AD4E7 /* Debug */,

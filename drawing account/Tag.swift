@@ -7,19 +7,33 @@
 
 import SwiftUI
 
-struct tag: View {
+struct Tag: View {
     var body: some View {
         ScrollView {
-            VStack(spacing: 12) {
-                Text("Tagged")
-                    .font(.title2.bold())
-                Text("這裡放被標記的內容")
+            VStack(spacing: 20) {
+                Image(systemName: "person.crop.square")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 50, height: 50)
+                
+                Text("Photos and videos of you")
+                    .bold()
+                    .font(.title)
+                    
+                Text("""
+When people tag you in photos and videos, 
+they'll appear here.
+""")
+                    .multilineTextAlignment(.center)
                     .foregroundStyle(.secondary)
-                Spacer(minLength: 16)
+                    .padding(.horizontal)
             }
-            .padding(.top, 8)
-            .frame(maxWidth: .infinity, alignment: .top)
+            .frame(maxWidth: .infinity, alignment: .center)
+            .padding()
         }
     }
 }
 
+#Preview {
+    Tag()
+}
